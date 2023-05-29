@@ -1,6 +1,4 @@
 ---
-Help: Navigating through the tabs
-Suites: 1
 Test
 ---
 <test page>!***> FitNesse Configurations
@@ -24,6 +22,4 @@ Test
 !*** Click on all the tabs
 !|script                                                          |
 |click on pie chart|Supplier is segregated by Status|pie slice|[2]|
-|take screenshot   |Screenshot2|   
-
-
+|take screenshot   |Screenshot2|                                              

@@ -22,7 +22,8 @@ Test
 |click on grid            |[1]                                   |column|[1]    |row    |[1]   |
 |click on button          |REASSIGN                                                            |
 |click on radio option    |Choose from all users and groups                                    |
-|populate field           |Reassign To[2] |with        |Ashwini Raviraj |partially matching picker field suggestion|
-|click on button          |CANCEL                                                              |
+|wait for                 |5                |seconds    |
+|populate field           |Reassign To[8]   |with       |Ashwini Raviraj |partially matching picker field suggestion|
+//click on button          |CANCEL                                                              |
 //click on button          |ACCEPT                                                              |
 //click on link            |Return task to all assignees|
